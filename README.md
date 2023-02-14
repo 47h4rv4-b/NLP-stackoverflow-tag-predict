@@ -23,18 +23,13 @@ Stack Overflow is a platform widely used by programmers, with over 50 million de
 ### Strategy:
 
 1. Libraries
-2. Data Cleaning – Stage 1
+2. Data Cleaning
 3. Analysis of Tags
-4. Tag Plots
-5. Data Cleaning – Stage 2
-6. Training Data
-7. Testing Data
-8. Machine Learning
-9. Splitting the training Data
-10. Tags Reduction
-11. Removing no coverage
-12. Featurizing data with TF-IDF vectorizer
-13. Featurizing Labels
-14. OneVsRest Classifier with SGDClassifier using TF-IDF
+4. Training Data
+5. Testing Data
+6. Machine Learning
+7. Featurizing data with TF-IDF vectorizer
+8. Featurizing Labels
+9. OneVsRest Classifier with SGDClassifier using TF-IDF
 
 This project aims to predict tags for Stack Overflow questions using machine learning. The data was explored, cleaned, and preprocessed. The OneVsRestClassifier with logistic regression was used for classification, achieving a micro f1 score of 0.47. Hyperparameter tuning was performed, and the best value of C was found to be 0.01, resulting in precision of 0.7072, recall of 0.3376, and micro f1 score of 0.4571.
